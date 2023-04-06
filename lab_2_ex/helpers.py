@@ -3,6 +3,7 @@
 import os
 import glob # library for loading images from a directory
 import matplotlib.image as mpimg
+import numpy as np
 
 
 
