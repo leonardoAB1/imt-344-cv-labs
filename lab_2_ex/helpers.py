@@ -3,10 +3,7 @@
 import os
 import glob # library for loading images from a directory
 import matplotlib.image as mpimg
-<<<<<<< HEAD
-=======
-import numpy as np
->>>>>>> 16d3b6b0f4509e5fcb48c69e3cf37e6665839a63
+
 
 
 
@@ -36,9 +33,7 @@ def load_dataset(image_dir):
 
     return im_list
 
-<<<<<<< HEAD
 
-=======
 def region_growing(img, seed, tolerance=0.1, color=255):
     """
     Segment an image using region growing.
@@ -80,4 +75,4 @@ def region_growing(img, seed, tolerance=0.1, color=255):
                 queue.append((pixel[0], pixel[1] + 1))
     
     return segmented
->>>>>>> 16d3b6b0f4509e5fcb48c69e3cf37e6665839a63
+
